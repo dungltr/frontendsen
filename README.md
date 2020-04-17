@@ -34,11 +34,13 @@ Edit configuration of the project:
 + nano config/index.js
 ++ replace
 index: path.resolve(__dirname, '../dist/index.html'),
+
 assetsRoot: path.resolve(__dirname, '../dist'),
 
 with
 
 index: path.resolve(__dirname, '../target/dist/index.html'),
+
 assetsRoot: path.resolve(__dirname, '../target/dist'),
 
 ++ edit 
