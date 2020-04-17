@@ -15,7 +15,7 @@ Install frontendsen
 
 + cd .. // to go to the parent folder of frontendsen
 
-+ vue init webpack frontend
++ vue init webpack frontendsen
 
 Following these steps:
 
