@@ -31,14 +31,16 @@ cd frontendsen
 npm install --save axios vue-axios vuex bootstrap-vue
 
 Edit configuration of the project:
+
 + nano config/index.js
-++ replace
+
+++ Replace
 
 index: path.resolve(__dirname, '../dist/index.html'),
 
 assetsRoot: path.resolve(__dirname, '../dist'),
 
-with
+With
 
 index: path.resolve(__dirname, '../target/dist/index.html'),
 
@@ -59,8 +61,11 @@ assetsRoot: path.resolve(__dirname, '../target/dist'),
     },
 
 Edit main.js
+
 + nano src/main.js
+
 + these lines:
+
   import BootstrapVue from 'bootstrap-vue'
   import 'bootstrap/dist/css/bootstrap.css'
   import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -68,6 +73,7 @@ Edit main.js
   Vue.use(BootstrapVue)
   
 Finally, run frontend by terminal:
+
 + npm run dev
 
 That all, open chrome browser and access to localhost:8080
