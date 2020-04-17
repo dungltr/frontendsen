@@ -33,6 +33,7 @@ npm install --save axios vue-axios vuex bootstrap-vue
 Edit configuration of the project:
 + nano config/index.js
 ++ replace
+
 index: path.resolve(__dirname, '../dist/index.html'),
 
 assetsRoot: path.resolve(__dirname, '../dist'),
@@ -44,6 +45,7 @@ index: path.resolve(__dirname, '../target/dist/index.html'),
 assetsRoot: path.resolve(__dirname, '../target/dist'),
 
 ++ edit 
+
  proxyTable: {
  
       '/api': {
@@ -64,6 +66,7 @@ Edit main.js
   import 'bootstrap-vue/dist/bootstrap-vue.css'
   Vue.config.productionTip = false
   Vue.use(BootstrapVue)
+  
 Finally, run frontend by terminal:
 + npm run dev
 
