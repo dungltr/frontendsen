@@ -30,13 +30,14 @@ Following these steps:
 + Pick a test runner karma
 + Setup e2e tests with Nightwatch? Yes
 + Should we run `npm install` for you after the project has been created? (recommended) (Use arrow keys)
+
 ❯ Yes, use NPM 
 
 Go in frontendsen folder and install some libraries:
 
-cd frontendsen
++ cd frontendsen
 
-npm install --save axios vue-axios vuex bootstrap-vue
++ npm install --save axios vue-axios vuex bootstrap-vue
 
 Edit configuration of the project:
 
