@@ -45,10 +45,15 @@ assetsRoot: path.resolve(__dirname, '../target/dist'),
 
 ++ edit 
  proxyTable: {
+ 
       '/api': {
+      
       target: 'http://localhost:8098',
+      
       changeOrigin: true
+      
       }
+      
     },
 
 Edit main.js
