@@ -1,14 +1,20 @@
 # frontendsen
 Make sure that your system is already install:
+
 + npm
+
 + nodejs
+
 + node
 
 Install vuejs
+
 +sudo npm install --global vue-cli
 
 Install frontendsen
+
 + cd .. // to go to the parent folder of frontendsen
+
 + vue init webpack frontend
 
 Following these steps:
@@ -27,7 +33,9 @@ Following these steps:
 ❯ Yes, use NPM 
 
 Go in frontendsen folder and install some libraries:
+
 cd frontendsen
+
 npm install --save axios vue-axios vuex bootstrap-vue
 
 Edit configuration of the project:
@@ -64,12 +72,16 @@ Edit main.js
 
 + nano src/main.js
 
-+ these lines:
++ Add these lines:
 
   import BootstrapVue from 'bootstrap-vue'
+  
   import 'bootstrap/dist/css/bootstrap.css'
+  
   import 'bootstrap-vue/dist/bootstrap-vue.css'
+  
   Vue.config.productionTip = false
+  
   Vue.use(BootstrapVue)
   
 Finally, run frontend by terminal:
