@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Main from '@/components/SemCache/Main'
-import MainCovid from '@/components/covid/MainCovid'
 import Hello from '@/components/Hello'
 import Service from '@/components/Service'
 import Bootstrap from '@/components/Bootstrap'
@@ -17,7 +16,6 @@ const router = new Router({
   mode: 'history', // uris without hashes #, see https://router.vuejs.org/guide/essentials/history-mode.html#html5-history-mode
   routes: [
     { path: '/originalhello', component: Hello },
-    { path: '/covid', component: MainCovid },
     { path: '/', component: Main },
     { path: '/callservice', component: Service },
     { path: '/bootstrap', component: Bootstrap },
